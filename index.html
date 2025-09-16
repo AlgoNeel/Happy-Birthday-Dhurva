@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Dhurva!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        .bounce { animation: bounce 2s infinite; }
+        .fade-in-up { animation: fadeInUp 0.8s ease-out forwards; }
+        .pulse-animation { animation: pulse 2s infinite; }
+        .message-card {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        .message-card.show {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 p-4">
+    <div class="max-w-4xl mx-auto">
+        <!-- Header -->
+        <div class="text-center mb-8 pt-8">
+            <h1 class="text-6xl font-bold text-white mb-4 bounce">🎉 Happy Birthday! 🎂</h1>
+            <h2 class="text-4xl font-semibold text-yellow-200 pulse-animation">Dear Dhurva</h2>
+            <p class="text-xl text-white mt-4 fade-in-up">Your friends from all over the internet are celebrating with you!</p>
+        </div>
+
+        <!-- Social Media Messages Container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <!-- Facebook Message -->
+            <div class="message-card bg-white rounded-lg shadow-lg p-6 border-l-4 border-blue-600">
+                <div class="flex items-center mb-4">
+                    <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg mr-3">f</div>
+                    <div>
+                        <h3 class="font-bold text-gray-800">Swapneel Das</h3>
+                        <p class="text-sm text-gray-500">Facebook</p>
+                    </div>
+                </div>
+                <p class="text-gray-700 leading-relaxed">🎈 Happy Birthday Dhurva! Hope your special day is filled with happiness, laughter, and all your favorite things. May this new year of life bring you amazing adventures and wonderful memories! 🎊</p>
+                <div class="mt-4 flex items-center text-sm text-gray-500">
+                    <span class="mr-4">👍 247 likes</span>
+                    <span>💬 38 comments</span>
+                </div>
+            </div>
+
+            <!-- Instagram Message -->
+            <div class="message-card bg-white rounded-lg shadow-lg p-6 border-l-4 border-pink-500">
+                <div class="flex items-center mb-4">
+                    <div class="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-3">📷</div>
+                    <div>
+                        <h3 class="font-bold text-gray-800">Swapneel Das</h3>
+                        <p class="text-sm text-gray-500">@swapneel_das</p>
+                    </div>
+                </div>
+                <p class="text-gray-700 leading-relaxed">✨ Another year around the sun for our amazing Dhurva! 🌟 Wishing you endless joy, success, and Instagram-worthy moments ahead! 📸 #HappyBirthdayDhurva #BirthdayVibes #Celebration</p>
+                <div class="mt-4 flex items-center text-sm text-gray-500">
+                    <span class="mr-4">❤️ 892 likes</span>
+                    <span>💬 156 comments</span>
+                </div>
+            </div>
+
+            <!-- Gmail Message -->
+            <div class="message-card bg-white rounded-lg shadow-lg p-6 border-l-4 border-red-500">
+                <div class="flex items-center mb-4">
+                    <div class="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-3">✉️</div>
+                    <div>
+                        <h3 class="font-bold text-gray-800">Swapneel Das</h3>
+                        <p class="text-sm text-gray-500">swapneeldas44@gmail.com</p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded mb-3">
+                    <p class="font-semibold text-gray-800 mb-2">Subject: 🎂 Special Birthday Wishes for Dhurva!</p>
+                </div>
+                <p class="text-gray-700 leading-relaxed">Dear Dhurva,<br><br>On this wonderful day, I wanted to send you the warmest birthday wishes via email! May your inbox always be filled with good news, opportunities, and messages from people who care about you. Have a fantastic birthday! 🎁<br><br>Best regards,<br>Swapneel Das</p>
+            </div>
+
+            <!-- Twitter Message -->
+            <div class="message-card bg-white rounded-lg shadow-lg p-6 border-l-4 border-blue-400">
+                <div class="flex items-center mb-4">
+                    <div class="w-10 h-10 bg-blue-400 rounded-full flex items-center justify-center text-white font-bold text-lg mr-3">🐦</div>
+                    <div>
+                        <h3 class="font-bold text-gray-800">Swapneel Das</h3>
+                        <p class="text-sm text-gray-500">@swapneeldasfx</p>
+                    </div>
+                </div>
+                <p class="text-gray-700 leading-relaxed">🎊 TRENDING: #HappyBirthdayDhurva 🎊<br><br>Another year of being awesome! 🌟 Dhurva, may your timeline always be filled with positivity, your notifications with love, and your DMs with opportunities! Keep shining! ✨ #Birthday #Celebration #Dhurva</p>
+                <div class="mt-4 flex items-center text-sm text-gray-500">
+                    <span class="mr-4">🔄 89 retweets</span>
+                    <span class="mr-4">❤️ 234 likes</span>
+                    <span>💬 45 replies</span>
+                </div>
+            </div>
+
+            <!-- WhatsApp Message -->
+            <div class="message-card bg-white rounded-lg shadow-lg p-6 border-l-4 border-green-500">
+                <div class="flex items-center mb-4">
+                    <div class="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-3">💬</div>
+                    <div>
+                        <h3 class="font-bold text-gray-800">Swapneel Das</h3>
+                        <p class="text-sm text-gray-500">WhatsApp</p>
+                    </div>
+                </div>
+                <div class="space-y-3">
+                    <div class="bg-green-100 p-3 rounded-lg ml-8">
+                        <p class="text-gray-700">🎉 Happy Birthday Dhurva! 🎂</p>
+                        <p class="text-xs text-gray-500 mt-1">12:01 PM ✓✓</p>
+                    </div>
+                    <div class="bg-green-100 p-3 rounded-lg ml-8">
+                        <p class="text-gray-700">Hope you have the most amazing day ever! 🎈🎁</p>
+                        <p class="text-xs text-gray-500 mt-1">12:02 PM ✓✓</p>
+                    </div>
+                    <div class="bg-green-100 p-3 rounded-lg ml-8">
+                        <p class="text-gray-700">Party time! 🥳🍰 Let's celebrate!</p>
+                        <p class="text-xs text-gray-500 mt-1">12:03 PM ✓✓</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LinkedIn Message -->
+            <div class="message-card bg-white rounded-lg shadow-lg p-6 border-l-4 border-blue-700">
+                <div class="flex items-center mb-4">
+                    <div class="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center text-white font-bold text-lg mr-3">💼</div>
+                    <div>
+                        <h3 class="font-bold text-gray-800">Swapneel Das</h3>
+                        <p class="text-sm text-gray-500">LinkedIn</p>
+                    </div>
+                </div>
+                <p class="text-gray-700 leading-relaxed">🎂 Celebrating another year of growth and achievements! Happy Birthday, Dhurva! 🎉 May this new year bring you exciting career opportunities, meaningful connections, and continued success in all your professional endeavors. Here's to another year of excellence! 🌟</p>
+                <div class="mt-4 flex items-center text-sm text-gray-500">
+                    <span class="mr-4">👍 127 reactions</span>
+                    <span>💬 23 comments</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Interactive Birthday Cake -->
+        <div class="text-center mb-8">
+            <div class="inline-block bg-white rounded-lg p-8 shadow-lg">
+                <div class="text-6xl mb-4" id="cake">🎂</div>
+                <button onclick="blowCandles()" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300 pulse-animation">
+                    🌬️ Blow the Candles!
+                </button>
+                <p class="text-gray-600 mt-4" id="cakeMessage">Make a wish, Dhurva!</p>
+            </div>
+        </div>
+
+        <!-- Birthday Animation Button -->
+        <div class="text-center mb-8">
+            <button onclick="startCelebration()" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-8 rounded-full text-xl transition-colors duration-300 shadow-lg">
+                🎊 Start the Celebration! 🎊
+            </button>
+        </div>
+
+        <!-- Confetti Container -->
+        <div id="confetti-container" class="fixed inset-0 pointer-events-none z-50"></div>
+    </div>
+
+    <script>
+        // Show messages with staggered animation
+        function showMessages() {
+            const messages = document.querySelectorAll('.message-card');
+            messages.forEach((message, index) => {
+                setTimeout(() => {
+                    message.classList.add('show');
+                }, index * 200);
+            });
+        }
+
+        // Blow candles function
+        function blowCandles() {
+            const cake = document.getElementById('cake');
+            const message = document.getElementById('cakeMessage');
+            
+            cake.innerHTML = '🍰';
+            message.innerHTML = '🎉 Happy Birthday Dhurva! Your wish will come true! 🎉';
+            message.className = 'text-purple-600 mt-4 font-bold bounce';
+            
+            // Reset after 3 seconds
+            setTimeout(() => {
+                cake.innerHTML = '🎂';
+                message.innerHTML = 'Make a wish, Dhurva!';
+                message.className = 'text-gray-600 mt-4';
+            }, 3000);
+        }
+
+        // Celebration function with confetti
+        function startCelebration() {
+            createConfetti();
+            
+            // Add celebration message
+            const container = document.querySelector('.max-w-4xl');
+            const celebrationMsg = document.createElement('div');
+            celebrationMsg.className = 'fixed inset-0 flex items-center justify-center z-40 pointer-events-none';
+            celebrationMsg.innerHTML = `
+                <div class="bg-white bg-opacity-90 rounded-lg p-8 text-center shadow-2xl bounce">
+                    <h2 class="text-4xl font-bold text-purple-600 mb-4">🎉 SURPRISE! 🎉</h2>
+                    <p class="text-2xl text-gray-800">Hope your day is as special as you are, Dhurva!</p>
+                    <p class="text-lg text-gray-600 mt-2">From your friend Swapneel Das! 💝</p>
+                </div>
+            `;
+            
+            document.body.appendChild(celebrationMsg);
+            
+            setTimeout(() => {
+                celebrationMsg.remove();
+            }, 4000);
+        }
+
+        // Create confetti effect
+        function createConfetti() {
+            const container = document.getElementById('confetti-container');
+            const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#ffeaa7', '#dda0dd', '#98d8c8'];
+            
+            for (let i = 0; i < 50; i++) {
+                const confetti = document.createElement('div');
+                confetti.style.position = 'absolute';
+                confetti.style.width = '10px';
+                confetti.style.height = '10px';
+                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                confetti.style.left = Math.random() * 100 + '%';
+                confetti.style.top = '-10px';
+                confetti.style.borderRadius = '50%';
+                confetti.style.animation = `fall ${Math.random() * 3 + 2}s linear forwards`;
+                
+                container.appendChild(confetti);
+                
+                setTimeout(() => {
+                    confetti.remove();
+                }, 5000);
+            }
+        }
+
+        // Add fall animation for confetti
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes fall {
+                to {
+                    transform: translateY(100vh) rotate(360deg);
+                }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Initialize the card
+        window.addEventListener('load', () => {
+            setTimeout(showMessages, 500);
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'98003f45d27ba48e',t:'MTc1ODAyNDQ4NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
